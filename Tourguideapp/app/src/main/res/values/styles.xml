@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#A8A19E</item>
+    </style>
+
+    <!-- GENERAL -->
+    <style name="std_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--CardStyle-->
+    <style name="CardStyle" parent="std_layout">
+        <item name="cardCornerRadius">@dimen/radius_elevation</item>
+        <item name="cardElevation">@dimen/radius_elevation</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+    </style>
+    <!--ImageCardStyle-->
+    <style name="CardImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="place_name_text_view" parent="std_layout">
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="place_description_text_view" parent="std_layout">
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="style_recycler">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawSelectorOnTop">true</item>
+    </style>
+
+    <style name="cardText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/margin_bottom</item>
+    </style>
+
+    <style name="style_tab">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <style name="style_toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+</resources>

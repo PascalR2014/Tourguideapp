@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Local guide to Paris</string>
+
+    <!--Tab Name-->
+    <string name="tab1">Visit Paris</string>
+    <string name="tab2">Restaurants</string>
+    <string name="tab3">Shopping</string>
+    <string name="tab4">Museums</string>
+
+    <!--Around Fragment-->
+    <string name="name_Paris">Paris</string>
+    <string name="Paris_title">The City of light, love, food, beauty, fun and fashion</string>
+    <string name="paris_plage">Paris sur plage</string>
+    <string name="argu_p_p">Sun, Eat and fun</string>
+    <string name="shopping">Make shopping</string>
+    <string name="argu_shopping">Lot of places to make a shopping</string>
+
+    <!--To visit Fragment-->
+    <string name="academie">Academy of beer</string>
+    <string name="academie_title">The City of food and fun</string>
+    <string name="resto1">A good restaurant</string>
+    <string name="resto1_title">French food</string>
+    <string name="resto2">La bonne franquette</string>
+    <string name="resto2_title">Upper on la butte Montmartre</string>
+
+    <!--EatDrink Fragment-->
+    <string name="shopping_paris">Where make a shopping?</string>
+    <string name="shopping_title">Every place in Paris for spent your money</string>
+    <string name="galerie">Galeries Lafayette</string>
+    <string name="galerie_title">A french shopping maul</string>
+
+    <!--Action Fragment-->
+    <string name="louvres">The Louvre museum </string>
+    <string name="louvres_title">The biggest and famous museum of the world!</string>
+    <string name="grand_palais">The grand palais</string>
+    <string name="gp_title">Is not famous but </string>
+    <string name="opera">The palais Garnier or Opera</string>
+    <string name="opera_title">Every tourist love it !</string>
+
+
+
+
+</resources>

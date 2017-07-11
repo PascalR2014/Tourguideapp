@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top">16dp</dimen>
+    <dimen name="margin_bottom">8dp</dimen>
+    <dimen name="radius_elevation">2dp</dimen>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">88dp</dimen>
+</resources>

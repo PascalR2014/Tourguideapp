@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/std_layout">
+
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle">
+
+        <LinearLayout
+            style="@style/std_layout"
+            android:layout_marginTop="@dimen/margin_top"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/place_image_view"
+                style="@style/CardImageView" />
+
+            <LinearLayout style="@style/cardText">
+
+                <TextView
+                    android:id="@+id/place_name_text_view"
+                    style="@style/place_name_text_view" />
+
+                <TextView
+                    android:id="@+id/place_description_text_view"
+                    style="@style/place_description_text_view" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

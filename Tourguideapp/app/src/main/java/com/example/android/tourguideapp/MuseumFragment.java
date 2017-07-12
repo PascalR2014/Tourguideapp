@@ -27,7 +27,7 @@ public class MuseumFragment extends Fragment {
         // Create a list of words
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(R.string.louvres, R.string.louvres_title,
-                R.drawable.museelouvres));
+                R.drawable.museelouvre));
         places.add(new Place(R.string.grand_palais, R.string.gp_title,
                 R.drawable.grand_palais_rodin));
         places.add(new Place(R.string.opera, R.string.opera_title,
